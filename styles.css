@@ -1,0 +1,69 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #fdf0d5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-top: 50px;
+    color: #e85a4f;
+  }
+  
+  h2 {
+    font-size: 2em;
+    color: #e98074;
+  }
+  
+  #days-counter {
+    font-size: 2.5em;
+    margin-top: 20px;
+    color: #8e8d8a;
+  }
+  
+ 
+  
+  .message {
+    font-size: 1.5em;
+    color: #e98074;
+    margin-top:10px;
+    font-weight: bold;
+
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  
+  .gallery-item {
+    text-align: center; 
+
+  }
+  
+  .gallery-item p {
+    font-size: 1.2em; 
+    margin-bottom: 10px;
+    color: #8e8d8a;
+    font-weight: bold;
+  }
+  
+  .gallery-item img {
+    width: 46%;
+    height: 70%; 
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-item img:hover {
+    transform: scale(1.05); 
+  }
+  
